@@ -1,0 +1,8 @@
+To Hide Secrets
+- Can remove appsettings.json from git repo
+    - If commit then:
+        -git rm appsettings.json --cached
+- Look at "dotnet user-secrets"
+        - dotnet user-secrets set "AppSettings:Token" "super secret key"
+To remove db
+- .gitignore *.db
