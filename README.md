@@ -4,3 +4,4 @@ Yet Another Social App
 .Net Core 3.0 w/ EF Core
 ## Frontend
 Angular 8 w/ Bootstrap 4
+
