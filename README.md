@@ -7,6 +7,9 @@ Yet Another Social App
         1. Microsoft.AspNetCore.Authentication.JwtBearer
         2. Microsoft.IdentityModel.Tokens
         3. System.IdentityModel.Tokens.Jwt
+        4. Microsoft.AspNetCore.Mvc.NewtonsoftJson
+        5. AutoMapper.Extensions.Microsoft.DependencyInjection
+         
 ## Frontend
 Angular 8 w/ Bootstrap 4
 
