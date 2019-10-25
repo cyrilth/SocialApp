@@ -1,3 +1,5 @@
+[![Build status](https://dev.azure.com/cyriltech/Portfolio%20Projects/_apis/build/status/SocialApp)](https://dev.azure.com/cyriltech/Portfolio%20Projects/_build/latest?definitionId=3)
+
 # SocialApp
 Yet Another Social App
 ## Backend
