@@ -35,9 +35,6 @@ import { appRoutes } from './routes';
    providers: [
       ErrorInterceptorProvider
    ],
-   providers: [
-      ErrorInterceptorProvider
-   ],
    bootstrap: [
       AppComponent
    ]
