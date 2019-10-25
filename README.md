@@ -11,7 +11,7 @@ Yet Another Social App
         3. System.IdentityModel.Tokens.Jwt
         4. Microsoft.AspNetCore.Mvc.NewtonsoftJson
         5. AutoMapper.Extensions.Microsoft.DependencyInjection
-         
+
 ## Frontend
 Angular 8 w/ Bootstrap 4
 
