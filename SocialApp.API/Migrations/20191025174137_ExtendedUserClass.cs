@@ -35,7 +35,7 @@ namespace SocialApp.API.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "Interrests",
+                name: "Interests",
                 table: "Users",
                 nullable: true);
 
@@ -115,7 +115,7 @@ namespace SocialApp.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "Interrests",
+                name: "Interests",
                 table: "Users");
 
             migrationBuilder.DropColumn(
