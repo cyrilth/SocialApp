@@ -21,3 +21,4 @@ Angular 8 w/ Bootstrap 4
         4. bootswatch
         5. font-awesome
         6. ngx-bootstrap
+        7. ngx-gallery
