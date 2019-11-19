@@ -60,12 +60,15 @@ export class CustomHammerConfig extends HammerGestureConfig {
          }
       })
    ],
+<<<<<<< HEAD
    providers: [
       ErrorInterceptorProvider,
       MemberDetailResolver,
       MemberListResolver,
       { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }
    ],
+=======
+>>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
    bootstrap: [
       AppComponent
    ]

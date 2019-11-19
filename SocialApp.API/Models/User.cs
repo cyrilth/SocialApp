@@ -26,7 +26,11 @@ namespace SocialApp.API.Models
         
         public string LookingFor { get; set; }
 
+<<<<<<< HEAD
         public string Interests { get; set; }
+=======
+        public string Interrests { get; set; }
+>>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
 
         public string City { get; set; }
 
