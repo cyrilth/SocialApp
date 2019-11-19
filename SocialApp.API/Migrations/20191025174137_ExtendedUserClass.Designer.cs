@@ -67,11 +67,7 @@ namespace SocialApp.API.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("TEXT");
 
-<<<<<<< HEAD
                     b.Property<string>("Interests")
-=======
-                    b.Property<string>("Interrests")
->>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Introduction")

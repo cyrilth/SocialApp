@@ -35,11 +35,7 @@ namespace SocialApp.API.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-<<<<<<< HEAD
                 name: "Interests",
-=======
-                name: "Interrests",
->>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
                 table: "Users",
                 nullable: true);
 
@@ -119,11 +115,7 @@ namespace SocialApp.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-<<<<<<< HEAD
                 name: "Interests",
-=======
-                name: "Interrests",
->>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
                 table: "Users");
 
             migrationBuilder.DropColumn(

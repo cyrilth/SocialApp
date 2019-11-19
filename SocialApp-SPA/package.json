@@ -5,11 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-<<<<<<< HEAD
     "build-prod": "ng build --prod",
-=======
-    "build-prod" : "ng build --prod",
->>>>>>> 705c17df1124a118bdec140e2e517b945b95087b
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
