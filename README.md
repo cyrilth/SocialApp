@@ -11,6 +11,7 @@ Yet Another Social App
         3. System.IdentityModel.Tokens.Jwt
         4. Microsoft.AspNetCore.Mvc.NewtonsoftJson
         5. AutoMapper.Extensions.Microsoft.DependencyInjection
+        6. CloudinaryDotNet
 
 ## Frontend
 Angular 8 w/ Bootstrap 4
@@ -22,3 +23,4 @@ Angular 8 w/ Bootstrap 4
         5. font-awesome
         6. ngx-bootstrap
         7. ngx-gallery
+        8. ng2-file-upload
