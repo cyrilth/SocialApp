@@ -329,3 +329,6 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 SocialApp.API/appsettings.Development.json
+*.db
+*.db-shm
+*.db-wal
