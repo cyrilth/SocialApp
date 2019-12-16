@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
 import { AlertifyService } from '../_services/alertify.service';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -9,12 +10,17 @@ import { AlertifyService } from '../_services/alertify.service';
 })
 export class RegisterComponent implements OnInit {
   @Output() cancelRegister = new EventEmitter();
-
   model: any = {};
+  registerForm: FormGroup;
 
   constructor(private authService: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
+    this.registerForm = new FormGroup({
+      username: new FormControl(),
+      password: new FormControl(),
+      confirmPassword: new FormControl()
+    });
   }
 
   register() {
