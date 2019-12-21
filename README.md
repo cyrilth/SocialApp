@@ -24,3 +24,4 @@ Angular 8 w/ Bootstrap 4
         6. ngx-bootstrap
         7. ngx-gallery
         8. ng2-file-upload
+        9. time-ago-pipe
