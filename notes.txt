@@ -6,3 +6,38 @@ To Hide Secrets
         - dotnet user-secrets set "AppSettings:Token" "super secret key"
 To remove db
 - .gitignore *.db
+
+Add to Angular Json Build Location
+- "../SocialApp.API/wwwroot"
+
+Making .Net Core 2.2 WebAPI to support static file. To run Angular on Kestral
+ - Under StartUp -> Configure (Add in order)
+        - app.UseDefaultFiles();
+        - app.UseStaticFiles();
+        - app.UseMvc(routes => {
+                name: "spa-fallback",
+                defaults: new {controller = "Fallback", action = "Index"}
+          });
+ - Then Add a Controller called Fallback
+        public clas FallbackController : Controller
+                public IActionResult Index()
+                        return PhysicalFile(Path.Combine(Directory.GetCurrentDirectory(),
+                                "wwwroot", "index.html"), "text/HTML");
+
+Making .Net Core 3.0 WebAPI to support static file. To run Angular on Kestral
+ - Under StartUp -> Configure (Add in order before EndPoint)
+        - app.UseDefaultFiles();
+        - app.UseStaticFiles();
+        - app.UseEndpoints(endpoints => {
+                endpoints.MapControllers();
+                endpoints.MapFallbackToController("Index", "Fallback");
+          })
+ - Then Add a Controller called Fallback
+        public clas FallbackController : Controller
+                public IActionResult Index()
+                        return PhysicalFile(Path.Combine(Directory.GetCurrentDirectory(),
+                                "wwwroot", "index.html"), "text/HTML");
+
+- Mysql Init
+ - CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'password';
+ - GRANT ALL PRIVILEGES ON *.* TO 'appuser'@'lcalhost' WITH GRANT OPTION;

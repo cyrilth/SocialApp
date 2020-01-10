@@ -12,6 +12,8 @@ Yet Another Social App
         4. Microsoft.AspNetCore.Mvc.NewtonsoftJson
         5. AutoMapper.Extensions.Microsoft.DependencyInjection
         6. CloudinaryDotNet
+        7. Microsoft.EntityFrameworkCore.SqlServer
+        8. Pomelo.EntityFrameworkCore.MySql
 
 ## Frontend
 Angular 8 w/ Bootstrap 4
