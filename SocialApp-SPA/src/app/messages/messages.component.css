@@ -1,0 +1,15 @@
+table {
+    margin-top: 15px;
+}
+
+.img-circle {
+    max-height: 50px;
+}
+
+tr:hover {
+    background-color: azure;
+}
+
+td {
+    vertical-align: middle;
+}
